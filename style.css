@@ -28,7 +28,7 @@ li,a,ul{
    
 }
 .navbar{
-background-image: url(images/evaluating-prints.jpeg);
+background-image: url(images/image1.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 height: 900px;
@@ -123,26 +123,34 @@ background-color:aquamarine;
 /* printing-styles */
 .printing-techniques{
     text-align: center;
-     padding: 100px;
+     padding: 100px 0px;
      font-size: 25px;
 
 } 
+
+.fa-arrow-right{
+    padding-left: 400px;
+    margin-top: -100px;
+
+}
 #advanced-printing-sreen{
-    height: 600px;
-    border-radius: 20%;
+    height: 590px;
+    border-radius: 5%;
  
 }
 #four-color{
     height: 600px;
-    border-radius: 20%;
+    border-radius: 5%;
 }
 #traditional-printing{
-    height: 580px;
-    border-radius: 20%;
+    height: 600px;
+    width:500px;
+    border-radius: 5%;
+
 }
 .printing-techniques-images{
     display: flex;
-  padding: 60px;
+  padding: 60px 150px;
 
 }
 .client-praise-text{
@@ -151,12 +159,26 @@ background-color:aquamarine;
     margin-top: 50px;
     
 }
+.client-praise{
+    padding:50px;
+}
 .industries{
-    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 50px;
     margin-top: 50px;
+    display: flex;
+
+}
+#industries-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+
+    
+}
+#industries-p{
+    padding-top: 100px;
+    padding-left:-100px;
 }
 .high-quality-printing{
     display:flex;
@@ -208,7 +230,7 @@ background-color:aquamarine;
     
 }
 .contacts-us{
- background-image: url(images/Location-Map-Spyic-.png);
+ background-image: url(images/googlemap.jpg);
  background-repeat: no-repeat;
    background-size: cover;
        height: 900px;
@@ -225,7 +247,7 @@ background-color:aquamarine;
     width: 400px;
     text-align: center;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-    margin-top:200px;
+    margin-top:-150px;
 
 
 }
@@ -296,7 +318,7 @@ a li ul{
         padding:20px;
     }
      .navbar{
-     background-image: url(images/evaluating-prints.jpeg);
+     background-image: url(images/image1.jpg);
      background-repeat: no-repeat;
      height: 300px;
      width: 100%;
@@ -432,27 +454,48 @@ a li ul{
          margin-top: 50px;
          
      }
+
      .industries{
+        justify-content: center;
+        gap: 50px;
+        margin-top: 50px;
+        display: flex;
+    
+    }
+    #industries-image{
+        width: 250px;
+        height: 80px;
+        border-radius: 10px;
+    
+        
+    }
+    #industries-p{
+        padding-top: 100px;
+        padding-left:-100px;
+    }
+
+      .industries{
          display: flex;
          font-size: 12px;
      }
      .industries h1{
         font-size: 15px;
      }
-     #industies-image{
-        height: 40px;
 
-     }
      .high-quality-printing{
          display:block;
      
      }
      #high-quality-image{
-         width: 300px;
-         height: 300px;
+         width: 350px;
+         height: 500px;
          border-radius: 10px;
          margin: 20px;
      }
+     .fa-star{
+        color: green;
+     }
+     
      .high-quality-text{
          font-size: 15px;
         line-height: 1;
@@ -508,7 +551,7 @@ a li ul{
          
      }
      .contacts-us{
-      background-image: url(images/Location-Map-Spyic-.png);
+      background-image: url(images/googlemap.jpg);
       background-repeat: no-repeat;
         background-size: cover;
             height: 900px;
@@ -589,7 +632,7 @@ margin: 0px;
      }
 }
 
-@media screen  and ( min-width:501) and(max-width: 1000px) {
+@media screen  and ( min-width:501px) and(max-width: 1000px) {
     *{
         overflow: hidden;
     }
@@ -615,7 +658,7 @@ margin: 0px;
         
      }
      .navbar{
-     background-image: url(images/evaluating-prints.jpeg);
+     background-image: url(images/image1.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      height: 900px;
@@ -795,7 +838,7 @@ margin: 0px;
          
      }
      .contacts-us{
-      background-image: url(images/Location-Map-Spyic-.png);
+      background-image: url(images/googlemap.jpg);
       background-repeat: no-repeat;
         background-size: cover;
             height: 900px;
