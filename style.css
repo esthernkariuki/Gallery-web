@@ -1,0 +1,865 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    
+}
+
+.offers{
+   text-align: center;
+    background-color: green;
+    color:white;
+    padding:20px;
+    font-size: px;
+}
+nav h1{
+    color: white;
+}
+nav,li,ul,a{ 
+display:flex;
+}
+li,a,ul{
+    text-decoration: none;
+    color:white;
+    padding:10px 5px;
+    
+    margin-left: 80px;
+    font-size: 25px;
+   
+}
+.navbar{
+background-image: url(images/evaluating-prints.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 900px;
+
+}
+.fa-phone-volume{
+    color: white;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.print{
+    margin-top:-700px;
+    color: white;
+    margin-left: 450px;
+    font-size: 36px;
+    margin-bottom: 350px;
+
+
+}
+#contact-us{
+    background-color: rgb(189, 206, 206);
+    height: 60px;
+    width: 20%;
+    border-radius:10px ;
+    margin-left: 90px;
+}
+.number-company{
+    text-align: center;
+    font-size: 23px;
+    margin:0px;
+
+
+}
+/* timeless-artistry */
+.timeless-artistry{
+    display: flex;
+    gap: 120px;
+    font-size: 25px;
+
+}
+#fansy-bed{
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px grey;
+
+}
+#highlighted-p{
+    color: green;
+    margin-top:40px ;
+}
+
+.timeless-artistry-img{
+  padding:50px;
+  
+}
+.btn{
+    margin: 50px;
+    display: flex;
+    gap: 50px;
+    height: 40px;  
+
+}
+.fa-arrow-right-long{
+transform:rotate(-30deg);
+padding: 10px;
+}
+#know-more{
+background-color: rgb(27, 216, 27);
+border-radius: 40px;
+width: 20%;
+
+}
+#contact{
+    border-radius:40px ;
+    width: 20%;
+}
+
+/* icons */
+
+.logos-services{
+
+  margin:50px;
+background-color:aquamarine;
+  display: flex;
+
+}
+.logos-services p{
+    padding: 40px;
+}
+
+/* printing-styles */
+.printing-techniques{
+    text-align: center;
+     padding: 100px;
+     font-size: 25px;
+
+} 
+#advanced-printing-sreen{
+    height: 600px;
+    border-radius: 20%;
+ 
+}
+#four-color{
+    height: 600px;
+    border-radius: 20%;
+}
+#traditional-printing{
+    height: 580px;
+    border-radius: 20%;
+}
+.printing-techniques-images{
+    display: flex;
+  padding: 60px;
+
+}
+.client-praise-text{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    
+}
+.industries{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+}
+.high-quality-printing{
+    display:flex;
+    gap: 200px;
+
+}
+#high-quality-image{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.high-quality-text{
+    padding-left: 100px;
+    font-size: 25px;
+}
+/* logos */
+.logos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 60px;
+    padding:0px;
+}
+
+/* showcasting */
+.showcasting-work{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    
+}
+#fashonist{
+    width: 500px;
+    height:60vh
+}
+#showcasting-work-images{  
+  height: 120vh;
+}
+
+
+
+/* location */
+.location-text{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.contacts-us{
+ background-image: url(images/Location-Map-Spyic-.png);
+ background-repeat: no-repeat;
+   background-size: cover;
+       height: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;    
+
+}
+.contacts{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 60px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    margin-top:200px;
+
+
+}
+.footer-content{
+    display: flex;
+    background-color: black;
+    height: 600px;
+}
+.rasi-logo{
+    width: 150px;
+    height: auto;
+    margin: 100px 40px;
+    border-radius: 10px;
+}
+.footer-content-text{
+    color: white;
+    margin: 90px 0px 0px 50px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.accounts{
+display: block;
+color:white;
+margin: 0px;
+font-size: 18px;
+}
+.accounts h1{
+    margin-left: 200px;
+}
+a li ul{
+    list-style-type: none;
+
+    
+}
+.sitemap h1{
+    margin-left: 200px;
+}
+.sitemap{
+    margin-top: 30px;
+    margin-left: 100px;
+    color: white;
+    font-size: 18px;
+
+}
+.head-office{
+    margin-top: 90px;
+    color: white;
+    font-size: 18px;
+    margin-left: 300px;
+}
+.footer-content-copyright{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+@media screen and (max-width:500px) {
+    *{
+        overflow-x: hidden;
+    }
+   .navba ul,li,a,h1{
+       text-decoration: none;
+        padding:0px;
+        margin: 0px;
+        gap: 100px;
+        font-size: 11px;
+    }
+    .navbar h1{
+        padding:20px;
+    }
+     .navbar{
+     background-image: url(images/evaluating-prints.jpeg);
+     background-repeat: no-repeat;
+     height: 300px;
+     width: 100%;
+     
+     }
+     .fa-phone-volume{
+         color: white;
+         font-size: 30px;
+         height: 20px;
+         margin-left:-5px ;
+     }
+     .print{
+        margin:0px;
+        padding: 0px;
+        color: white;
+        margin-top: -200px;
+        font-size: 15px;
+        margin-left:40px;
+     
+     
+     }
+     #contact-us{
+         background-color: rgb(189, 206, 206);
+         height: 40px;
+         width: 20%;
+         border-radius:10px ;
+         margin-left: 90px;
+     }
+     .number-company{
+         text-align: center;
+         font-size: 23px;
+         margin:0px;
+     
+     
+     }
+     /* timeless-artistry */
+     .timeless-artistry{
+         display:block;
+         font-size: 12px;
+     
+     }
+     #fansy-bed{
+         height: 150px;
+         border-radius: 10px;
+         box-shadow: 10px 10px 10px 10px grey;
+     
+     }
+     #highlighted-p{
+         color: green;
+         margin-top:40px ;
+     }
+     .timeless-artistry-text{
+        font-size: 12px;
+        margin:30px;
+     }
+     
+     .timeless-artistry-img{
+       padding:50px;
+       
+     }
+     .btn{
+         margin: 50px;
+         display: flex;
+         gap: 100px;
+         height: 60px;  
+     
+     }
+     .fa-arrow-right-long{
+     transform:rotate(-30deg);
+     padding: 10px;
+     }
+     #know-more{
+     background-color: rgb(27, 216, 27);
+     border-radius: 40px;
+     width: 300px;
+     
+     }
+     #contact{
+         border-radius:40px ;
+         width: 100%;
+     }
+     
+     /* icons */
+     
+     .logos-services{
+     background-color:aquamarine;
+     width:100%;
+       display:flex;
+       margin-left:0px;
+     
+     }
+     .logos-services p{
+       font-size: 10px;
+       padding: 0px;
+      
+     }
+     #logos-services-image{
+        height: 30px;
+     }
+     
+     /* printing-styles */
+     .printing-techniques{
+          font-size: 15px;
+          padding: 0px;
+          margin-bottom: 50px;
+     
+     } 
+
+     #advanced-printing-sreen{
+         height: 70px;
+         border-radius: 20%;
+      
+     }
+     #four-color{
+         height: 70px;
+         border-radius: 20%;
+     }
+     #traditional-printing{
+         height: 60px;
+         border-radius: 20%;
+     }
+     .printing-techniques-images{
+         display: flex;
+         font-size: 13px;
+         gap:20px;
+         overflow-y: hidden;
+         padding: 0px;
+     
+     }
+     .client-praise-text{
+         text-align: center;
+         font-size: 20px;
+         margin-top: 50px;
+         
+     }
+     .industries{
+         display: flex;
+         font-size: 12px;
+     }
+     .industries h1{
+        font-size: 15px;
+     }
+     #industies-image{
+        height: 40px;
+
+     }
+     .high-quality-printing{
+         display:block;
+     
+     }
+     #high-quality-image{
+         width: 300px;
+         height: 300px;
+         border-radius: 10px;
+         margin: 20px;
+     }
+     .high-quality-text{
+         font-size: 15px;
+        line-height: 1;
+        margin-left: -60px;
+        margin-bottom: 40px;
+
+     }
+     
+     /* logos */
+     .logos{
+         display: flex;
+         justify-content: center;
+         /* flex-wrap: wrap; */
+         margin-top: 60px;
+         padding:0px;
+       
+     }
+     #logo-gap{
+        height: 30px;
+     }
+     #logo-arvid,#logo-puma,#logo-birla,#logo-converse,#logo-malkarlar{
+     height:50px
+     }
+     #logo-mytra{
+        height: 40px;
+     }
+     
+     /* showcasting */
+     .showcasting-work{
+         text-align: center;
+         font-size: 20px;
+         margin-top: 50px;
+         
+     }
+     .showcasting-work h1{
+        font-size: 23px;
+     }
+     #fashonist{
+         width: 100px;
+         height:20vh
+     }
+     #showcasting-work-images{  
+       height: 40vh;
+     }
+     
+     
+     
+     /* location */
+     .location-text{
+         text-align: center;
+         font-size: 25px;
+         margin-top: 20px;
+         
+     }
+     .contacts-us{
+      background-image: url(images/Location-Map-Spyic-.png);
+      background-repeat: no-repeat;
+        background-size: cover;
+            height: 900px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             color: black; 
+             font-size: 12px;   
+     
+     }
+     .contacts{
+         background-color: rgba(255, 255, 255, 0.8);
+         padding: 60px;
+         border-radius: 10px;
+         width: 400px;
+         text-align: center;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+         margin-top:-100px;
+     
+     
+     }
+     .footer-content{
+         display: block;
+         background-color: black;
+         height: 900px;
+     }
+     .rasi-logo{
+         width: 190px;
+         height: auto;
+         margin: 20px 60px;
+         border-radius: 10px;
+     }
+     .footer-content-text{
+         color: white;
+         margin: 10px;
+         font-size: 15px;
+         
+     }
+     .accounts{
+     display: block;
+     color:white;
+     font-size: 12px;
+     padding: 0px;
+     margin: 0px;
+        
+     }
+    
+     a li ul{
+         list-style-type: none;
+     
+         
+     }
+     .sitemap{
+         margin-top: 30px;
+         color: white;
+         font-size: 15px;
+         margin: left -100px;
+         padding: 0px;
+
+    li,a,ol{
+text-decoration: none;
+display: block;
+margin: 0px;
+         }
+     
+     }
+     .head-office{
+         margin-top: 90px;
+         color: white;
+         font-size: 15px;
+         margin: 20px;
+        
+     }
+     .footer-content-copyright{
+         color: white;
+         background-color: black;
+         text-align: center;
+     }
+}
+
+@media screen  and ( min-width:501) and(max-width: 1000px) {
+    *{
+        overflow: hidden;
+    }
+    .offers{
+        text-align: center;
+         background-color: green;
+         color:white;
+         padding:20px;
+         font-size:15px;
+     }
+     nav h1{
+         color: white;
+     }
+     nav,li,ul,a{ 
+     display:flex;
+     }
+     li,a,ul{
+         text-decoration: none;
+         color:white;
+         padding:10px 5px;
+         margin-left: 80px;
+         font-size: 20px;
+        
+     }
+     .navbar{
+     background-image: url(images/evaluating-prints.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 900px;
+     
+     }
+     .fa-phone-volume{
+         color: white;
+         font-size: 30px;
+         margin-left:30px;
+         margin-top: 15px;
+     }
+     .print{
+         margin-top:-900px;
+         color: white;
+         margin-left: 50px;
+         font-size: 36px;
+       
+     
+     
+     }
+     #contact-us{
+         background-color: rgb(189, 206, 206);
+         height: 60px;
+         width: 200px;
+         border-radius:10px ;
+         margin-left: 90px;
+     }
+     .number-company{
+         text-align: center;
+         font-size: 23px;
+         margin:0px;
+     
+     
+     }
+     /* timeless-artistry */
+     .timeless-artistry{
+         display: flex;
+         gap: 120px;
+         font-size: 25px;
+     
+     }
+     #fansy-bed{
+         height: 700px;
+         border-radius: 10px;
+         box-shadow: 10px 10px 10px 10px grey;
+     
+     }
+     #highlighted-p{
+         color: green;
+         margin-top:40px ;
+     }
+     
+     .timeless-artistry-img{
+       padding:50px;
+       
+     }
+     .btn{
+         margin: 50px;
+         display: flex;
+         gap: 50px;
+         height: 40px;  
+     
+     }
+     .fa-arrow-right-long{
+     transform:rotate(-30deg);
+     padding: 10px;
+     }
+     #know-more{
+     background-color: rgb(27, 216, 27);
+     border-radius: 40px;
+     width: 20%;
+     
+     }
+     #contact{
+         border-radius:40px ;
+         width: 20%;
+     }
+     
+     /* icons */
+     
+     .logos-services{
+     
+       margin:50px;
+     background-color:aquamarine;
+       display: flex;
+     
+     }
+     .logos-services p{
+         padding: 40px;
+     }
+     
+     /* printing-styles */
+     .printing-techniques{
+         text-align: center;
+          padding: 100px;
+          font-size: 25px;
+     
+     } 
+     #advanced-printing-sreen{
+         height: 600px;
+         border-radius: 20%;
+      
+     }
+     #four-color{
+         height: 600px;
+         border-radius: 20%;
+     }
+     #traditional-printing{
+         height: 580px;
+         border-radius: 20%;
+     }
+     .printing-techniques-images{
+         display: flex;
+       padding: 60px;
+     
+     }
+     .client-praise-text{
+         text-align: center;
+         font-size: 30px;
+         margin-top: 50px;
+         
+     }
+     .industries{
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         gap: 50px;
+         margin-top: 50px;
+     }
+     .high-quality-printing{
+         display:flex;
+         gap: 200px;
+     
+     }
+     #high-quality-image{
+         width: 500px;
+         height: 500px;
+         border-radius: 10px;
+         margin: 20px;
+     }
+     .high-quality-text{
+         padding-left: 100px;
+         font-size: 25px;
+     }
+     /* logos */
+     .logos{
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         gap: 10px;
+         margin-top: 60px;
+         padding:0px;
+     }
+     
+     /* showcasting */
+     .showcasting-work{
+         text-align: center;
+         font-size: 30px;
+         margin-top: 50px;
+         
+     }
+     #fashonist{
+         width: 500px;
+         height:60vh
+     }
+     #showcasting-work-images{  
+       height: 120vh;
+     }
+     
+     
+     
+     /* location */
+     .location-text{
+         text-align: center;
+         font-size: 25px;
+         margin-top: 20px;
+         
+     }
+     .contacts-us{
+      background-image: url(images/Location-Map-Spyic-.png);
+      background-repeat: no-repeat;
+        background-size: cover;
+            height: 900px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             color: black;    
+     
+     }
+     .contacts{
+         background-color: rgba(255, 255, 255, 0.8);
+         padding: 60px;
+         border-radius: 10px;
+         width: 400px;
+         text-align: center;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+         margin-top:200px;
+     
+     
+     }
+     .footer-content{
+         display: flex;
+         background-color: black;
+         height: 500px;
+     }
+     .rasi-logo{
+         width: 150px;
+         height: auto;
+         margin: 100px 60px;
+         border-radius: 10px;
+     }
+     .footer-content-text{
+         color: white;
+         margin: 80px;
+         font-size: 18px;
+         line-height: 1.6;
+     }
+     .accounts{
+     display: block;
+     color:white;
+         margin: 30px;
+         font-size: 18px;
+     }
+     a li ul{
+         list-style-type: none;
+     
+         
+     }
+     .sitemap{
+         margin-top: 30px;
+         margin-left: 100px;
+         color: white;
+         font-size: 18px;
+     
+     }
+     .head-office{
+         margin-top: 90px;
+         color: white;
+         font-size: 18px;
+         margin-left: 300px;
+     }
+     .footer-content-copyright{
+         color: white;
+         background-color: black;
+         text-align: center;
+     }   
+}
