@@ -425,6 +425,9 @@ a li ul{
      #logos-services-image{
         height: 30px;
      }
+     h1{
+        font-size: 25px;
+     }
      
      /* printing-styles */
      .printing-techniques{
@@ -445,7 +448,7 @@ a li ul{
      }
      #traditional-printing{
          height: 60px;
-         border-radius: 20%;
+         width: 70px;
      }
      .printing-techniques-images{
          display: flex;
@@ -517,12 +520,13 @@ a li ul{
          justify-content: center;
          margin-top: 60px;
          padding:0px;
+         flex-wrap: wrap;
        
      }
      #logo-gap{
         height: 30px;
      }
-     #logo-arvid,#logo-puma,#logo-birla,#logo-converse,#logo-malkarlar{
+     #logo-arvid,#logo-puma,#logo-birla,#logo-converse{
      height:50px
      }
      #logo-mytra{
@@ -540,15 +544,21 @@ a li ul{
         font-size: 23px;
      }
      #fashonist{
-         width: 100px;
-         height:20vh
+         width: 200px;
+         height:30vh;
+         display: flex;
+         margin:50px ;
+         border-radius: 10%;
      }
-     #showcasting-work-images{  
-       height: 40vh;
+     #fashonists{
+        height: 40vh;
+        width: 200px;
+        border-radius: 10%;
      }
-     
-     
-     
+     #showcasting-work-image{
+        height:300px;
+        border-radius: 10%;
+     }
      /* location */
      .location-text{
          text-align: center;
@@ -627,14 +637,14 @@ a li ul{
          margin-left:-5px;
          padding: 0px;
          line-height: 2;
-
+     }
     li,a,ol{
-text-decoration: none;
-display: block;
-margin: 0px;
+    text-decoration: none;
+    display: block;
+    margin: 0px;
          }
      
-     }
+     
      .head-office{
          margin-top: 90px;
          color: white;
